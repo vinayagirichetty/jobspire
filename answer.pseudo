@@ -1,0 +1,14 @@
+<?php
+	function ($name)
+	{
+		//Generate Random Number Using Rand Method
+		//int rand($min, $max) min and max are inclusive;
+		$number = rand(6, 15);
+
+		//Concatenate name and number
+		$answer = $name." ".$number;
+
+		//Return the concatenated string.
+		return $answer;
+	}
+?>
